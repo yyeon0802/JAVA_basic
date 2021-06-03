@@ -1,0 +1,52 @@
+package day0323;
+
+public class ferrari implements Car {
+    
+    private String carNumber;
+    private String carModel;
+    private int carMoney;
+    private String carColor;
+    
+    public ferrari() {
+        this.carNumber = new String("45다 9876");
+        this.carModel = new String("ferrari");
+        this.carMoney = 70000;
+        this.carColor = new String("빨강");
+    }
+
+    @Override
+    public void turnOn() {
+        
+    }
+
+    @Override
+    public void speedUp() {
+        
+    }
+
+    @Override
+    public void speedDown() {
+        
+    }
+
+    @Override
+    public void goLeft() {
+        
+    }
+
+    @Override
+    public void goRight() {
+        
+    }
+
+    @Override
+    public void park() {
+        
+    }
+
+    @Override
+    public void turnOff() {
+        
+    }
+
+}
